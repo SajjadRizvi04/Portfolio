@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(27, 1, 27);
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(60, 0, 116);
+    color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.04rem;
+}
+.left {
+    font-size: 1.5rem;
+}
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+    align-items: center;
+}
+.leftSection {
+    font-size: 2.3rem;
+}
+.firstSection > div {
+    width: 30%;
+}
+img {
+    width: 130%;
+}
+.purple {
+    color: rgb(129, 0, 250);
+}
+.purpleHeading {
+    color: rgb(129, 0, 250);
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+}
+#element {
+    color: rgb(129, 0, 250);
+}
+main hr {
+    border: 0;
+    height: 1px;
+    background-color: #9364e3;
+    margin: 40px 84px;
+}
+footer{
+    background-color: rgb(60, 0, 116);
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.socialIcons a{
+    display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0 0 2px #ffffff;
+  padding: 0.5em 0.6em;
+  background-color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+.socialIcons a i{
+    display: flex;
+    font-size: 2em;
+    color: rgb(60, 0, 116);
+    opacity: 0,9;
+    justify-content: center;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+.watermark {
+    opacity: 0.6;
+}
+.leftSection1 {
+    display: inline-flex;
+    padding-right: 20vmin;
+    padding-left: 20vmin;
+    padding-top: 5vmin;
+    
+}
+.rightSection1 {
+    display: inline-flex;
+    padding-left: 20vmin ;
+    
+    
+}
+.img1 {
+    width: 100%;
+    border-radius: 100%;
+}
+.img3 {
+    width: 60%;
+}
+.thirdSection .secondSection {
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 23px 0;
+    align-items: center;
+}
+.leftSection2 {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 20vmin;
+    font-size: 3vmin;
+}
+.rightSection2 {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 20vmin;
+}
+section {
+    display: flex;
+    align-items:  center;
+}
+.secondSection > div {
+    width: 30%;
+}
+.thirdSection > div {
+    width: 90%;
+}
