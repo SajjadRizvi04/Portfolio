@@ -388,7 +388,6 @@
     .skills-section {
       padding: 0 20px;
     }
-  
     .skills-section .cells .cell span {
       font-size: 16px;
     }
@@ -396,6 +395,9 @@
     
     .education-section {
       padding: 0 20px;
+    }
+    .education-section .text {
+      text-align: center;
     }
 
   }
