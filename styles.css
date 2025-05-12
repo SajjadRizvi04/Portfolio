@@ -42,6 +42,9 @@
     font-size: 22px;
     font-weight: 600;
   }
+  nav .left a:hover {
+    color: var(--link-color);
+  }
   
   nav .right a {
     color: var(--text-color);
@@ -52,6 +55,10 @@
     color: var(--background-color);
     background-color: var(--text-color);
     padding: 5px 15px;
+    border-radius: 5px;
+  }
+  nav .right a:hover {
+    color: var(--link-color);
     border-radius: 5px;
   }
   
